@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularPercentageView">
+        <attr name="cpv_show_text" format="boolean"/>
+        <attr name="cpv_text_color" format="color|reference"/>
+        <attr name="cpv_text_size" format="dimension|reference"/>
+        <attr name="cpv_bar_width" format="dimension|reference"/>
+        <attr name="cpv_background_bar_color" format="color|reference"/>
+        <attr name="cpv_percentage_bar_color" format="color|reference"/>
+        <attr name="cpv_percentage" format="float"/>
+        <attr name="cpv_percentage_bar_style" format="enum">
+            <enum name="ROUND" value="0"/>
+            <enum name="BUTT" value="1"/>
+        </attr>
+        <attr name="cpv_start_angle" format="integer"/>
+        <attr name="cpv_animation_duration" format="integer"/>
+        <attr name="cpv_interpolator" format="enum">
+            <enum name="linear" value="0" />
+            <enum name="accelerate" value="1" />
+            <enum name="decelerate" value="2" />
+            <enum name="accelerate_decelerate" value="3" />
+            <enum name="anticipate" value="4" />
+            <enum name="overshoot" value="5" />
+            <enum name="anticipate_overshoot" value="6" />
+            <enum name="bounce" value="7" />
+            <enum name="fast_out_linear_in" value="8" />
+            <enum name="fast_out_slow_in" value="9" />
+            <enum name="linear_out_slow_in" value="10" />
+        </attr>
+    </declare-styleable>
+</resources>

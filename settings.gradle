@@ -1,0 +1,3 @@
+include ':CircularPercentageView'
+include ':app'
+rootProject.name = "CircularPercentageView"

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <com.zaaach.circularpercentageview.CircularPercentageView
+        android:id="@+id/percentage_view"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        app:cpv_bar_width="16dp"
+        tools:cpv_percentage="0.8"
+        app:cpv_animation_duration="500"
+        app:cpv_interpolator="fast_out_slow_in"
+        app:cpv_show_text="true"
+        app:cpv_text_color="#bdbdbd"
+        app:cpv_text_size="20sp"
+        app:cpv_percentage_bar_style="ROUND"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
