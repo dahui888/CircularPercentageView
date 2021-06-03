@@ -1,4 +1,4 @@
-package com.github.zaaach.circularpercentageview;
+package com.github.zaaach.sample;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 
-import com.github.zaaach.circularpercentageview.databinding.ActivityMainBinding;
+import com.github.zaaach.sample.databinding.ActivityMainBinding;
 
 import java.util.Random;
 

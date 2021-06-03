@@ -1,4 +1,4 @@
-package com.github.zaaach.circularpercentageview;
+package com.github.zaaach.sample;
 
 import org.junit.Test;
 
